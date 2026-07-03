@@ -1,0 +1,33 @@
+# Environment
+.env
+*.env
+
+# Uploads (jangan commit file user)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Storage
+storage/logs/*
+storage/cache/*
+storage/sessions/*
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
+!storage/sessions/.gitkeep
+
+# Composer
+vendor/
+composer.lock
+
+# Node
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
